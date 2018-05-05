@@ -1,0 +1,85 @@
+.invalid-feedback, .valid-feedback {
+    position: absolute;
+    left: 0;
+    bottom: -1.5rem;
+}
+.invalid-feedback {
+    width: 100%;
+    margin-top: .25rem;
+    font-size: 80%;
+    color: #ff6b68;
+}
+
+.map-label {
+    color: white;
+}
+
+.datepicker table tr td span.active {
+    background-image: linear-gradient(to bottom, #32c787, #32c787);
+}
+
+.datepicker table tr td span.active:hover, .datepicker table tr td span.active:hover:hover, .datepicker table tr td span.active.disabled:hover, .datepicker table tr td span.active.disabled:hover:hover, .datepicker table tr td span.active:active, .datepicker table tr td span.active:hover:active, .datepicker table tr td span.active.disabled:active, .datepicker table tr td span.active.disabled:hover:active, .datepicker table tr td span.active.active, .datepicker table tr td span.active:hover.active, .datepicker table tr td span.active.disabled.active, .datepicker table tr td span.active.disabled:hover.active, .datepicker table tr td span.active.disabled, .datepicker table tr td span.active:hover.disabled, .datepicker table tr td span.active.disabled.disabled, .datepicker table tr td span.active.disabled:hover.disabled, .datepicker table tr td span.active[disabled], .datepicker table tr td span.active:hover[disabled], .datepicker table tr td span.active.disabled[disabled], .datepicker table tr td span.active.disabled:hover[disabled] {
+    background-image: linear-gradient(to bottom, #32c787, #32c787);
+}
+
+.select2-dropdown {
+  z-index: 9001;
+}
+
+.hidden {
+    display: none;
+}
+
+.select-filter {
+    border: 1px solid #ccc;
+    overflow: hidden; 
+    height: 20px;    
+    position: relative;
+    display: block;
+}
+
+.small-button {
+     width: 20em;  height: 2em;
+}
+
+thead {
+    color: #464a4c;
+    background-color: #fbfbfb;
+}
+
+[type=reset], [type=submit], button, html [type=button] {
+    -webkit-appearance: none;
+}
+
+table.dataTable.dtr-inline.collapsed>tbody>tr[role="row"]>td:first-child:before, table.dataTable.dtr-inline.collapsed>tbody>tr[role="row"]>th:first-child:before {
+    top: 50%;
+    margin-top: -9px;
+    left: 4px;
+    height: 18px;
+    width: 18px;
+    display: block;
+    position: absolute;
+    color: #4caf50;
+    border: 0px solid white;
+    border-radius: 14px;
+    box-shadow: 0 0 3px #444;
+    box-sizing: content-box;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 18px;
+    content: '+';
+    background-color: #FFF;
+}
+
+table.dataTable.dtr-inline.collapsed>tbody>tr.parent>td:first-child:before, table.dataTable.dtr-inline.collapsed>tbody>tr.parent>th:first-child:before {
+    content: '-';
+    color: #f44336;
+}
+
+.form-control[readonly] {
+    opacity: 1;
+}
+
+.custom-label {
+    font-weight: 500;
+}
